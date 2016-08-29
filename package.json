@@ -1,6 +1,6 @@
 {
   "name": "broccoli-systemjs-builder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Broccoli system.js filter optimized for incremental rebuilds",
   "main": "index.js",
   "repository": {
@@ -18,12 +18,10 @@
   "homepage": "https://github.com/ghempton/broccoli-systemjs-builder#readme",
   "devDependencies": {},
   "dependencies": {
+    "broccoli-persistent-filter": "^1.2.11",
     "fs-extra": "^0.30.0",
-    "fs-tree-diff": "^0.5.2",
-    "promise-map-series": "^0.2.3",
     "rsvp": "^3.2.1",
     "symlink-or-copy": "^1.1.6",
-    "systemjs-builder": "^0.15.12",
-    "walk-sync": "^0.3.1"
+    "systemjs-builder": "^0.15.12"
   }
 }
