@@ -51,8 +51,9 @@ SystemJSBuilder.prototype.build = function() {
     var cwd = process.cwd();
     // XXX: Not currently a good way to configure the output directory
     process.chdir(destDir);
-    return fn(builder, sourceDir, destDir).then(function() {
-      process.chdir(cwd)
+    return fn(builder, sourceDir, destDir).then(function(res) {
+      process.chdir(cwd);
+      return res;
     }, function(err) {
       process.chdir(cwd);
       throw err;

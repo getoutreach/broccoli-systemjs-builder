@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ghempton/broccoli-systemjs-builder.git"
+    "url": "git+https://github.com/getoutreach/broccoli-systemjs-builder.git"
   },
   "keywords": [
     "SystemJS"
@@ -13,9 +13,9 @@
   "author": "Gordon Hempton <ghempton@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ghempton/broccoli-systemjs-builder/issues"
+    "url": "https://github.com/getoutreach/broccoli-systemjs-builder/issues"
   },
-  "homepage": "https://github.com/ghempton/broccoli-systemjs-builder#readme",
+  "homepage": "https://github.com/getoutreach/broccoli-systemjs-builder#readme",
   "devDependencies": {},
   "dependencies": {
     "broccoli-persistent-filter": "^1.2.11",
