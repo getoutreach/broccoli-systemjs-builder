@@ -1,6 +1,6 @@
 {
   "name": "broccoli-systemjs-builder",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Broccoli system.js filter optimized for incremental rebuilds",
   "main": "index.js",
   "repository": {
@@ -18,10 +18,10 @@
   "homepage": "https://github.com/getoutreach/broccoli-systemjs-builder#readme",
   "devDependencies": {},
   "dependencies": {
-    "broccoli-persistent-filter": "^1.2.11",
+    "broccoli-persistent-filter": "^1.2.13",
     "fs-extra": "^0.30.0",
-    "rsvp": "^3.2.1",
+    "rsvp": "^3.3.3",
     "symlink-or-copy": "^1.1.6",
-    "systemjs-builder": "^0.15.12"
+    "systemjs-builder": ">0.15.12"
   }
 }
